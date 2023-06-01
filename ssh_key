@@ -1,0 +1,31 @@
+To set up key type :
+
+ [ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" ]
+
+Directory ~/.ssh will be created
+
+Find [ ~/.ssh/*.pub ] or type that command
+
+The content in the .pub file is your device specific ssh key
+Now copy the ssh key.
+
+Log in to Gitlab and click on your profile - preferences - ssh keys
+
+Then paste the ssh key, set the title for that particular device
+(expiration date of key if needed) and add key.
+
+If all is done correct your should now be able to clone the repo
+when cloning with ssh
+
+--------------------------------------------------------------------------
+
+Before we start commiting to the repo we must set the accounts 
+identity so that git can make a track of who made the changes 
+in the repo
+
+To set identity run the following code :
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+Now your account identity has been set and you can proceed to make 
+change in the repo
