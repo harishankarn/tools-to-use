@@ -1,0 +1,26 @@
+1. tlp power management *
+2. whiskers menu
+3. graphics drivers *
+4. power management *
+5. ethernet and download braodcomm driver *
+6. firefox old version *
+7. firefox config
+8. e papirus theme and adwaita
+9. systemd-analyse blame (network-wait, avahi-deamon etc) *
+10. achi *
+11. trim
+12. "search speed uo mint and click on penguin logo web"
+13. tele, spotify, qbit, filezilla, vim, wine, thunderbird(pop3), vlc, albert
+14. remove unwanted apps
+15. disable bluetooth and blueman *
+16. startup app disable *
+18. shortcuts *
+19. acpi-cpufreq (if default enabled then skip step)
+20. old nvidia driver on new kernel *
+21. enable cloud (make ~/cloud) *
+22. waterfox, midori
+
+23. add tmp space to memory https://forums.linuxmint.com/viewtopic.php?t=286307
+
+ sudo cp /usr/share/systemd/tmp.mount /etc/systemd/system/tmp.mount 
+ sudo systemctl enable tmp.mount

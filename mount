@@ -1,0 +1,2 @@
+sudo mount -t cifs -o username=admin,password=admin123$ //192.168.29.176/Personal  ~/cloud/
+
